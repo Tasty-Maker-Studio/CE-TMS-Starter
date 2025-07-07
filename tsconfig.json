@@ -1,12 +1,7 @@
 {
   "compilerOptions": {
-<<<<<<< HEAD
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-=======
     "target": "ES2022",
     "lib": ["dom", "dom.iterable", "es6"],
->>>>>>> stage
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,10 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-<<<<<<< HEAD
-=======
     "types": ["jest", "@testing-library/jest-dom"],
->>>>>>> stage
     "plugins": [
       {
         "name": "next"
@@ -29,9 +21,6 @@
     ],
     "baseUrl": ".",
     "paths": {
-<<<<<<< HEAD
-      "@/*": ["src/*"]
-=======
       "@/*": ["./src/*"],
       "@/components/*": ["./src/components/*"],
       "@/lib/*": ["./src/lib/*"],
@@ -40,13 +29,8 @@
       "@/types/*": ["./src/types/*"],
       "@/utils/*": ["./src/utils/*"],
       "@/app/*": ["./src/app/*"]
->>>>>>> stage
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> stage
